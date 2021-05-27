@@ -560,6 +560,9 @@ a.active-tab{
     .about-content p{
         width: 100%;
     }
+    .container.all-offers{
+        max-width: 100%;
+    }
 
 }
 @media only screen and (max-width: 992px){
