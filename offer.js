@@ -72,50 +72,53 @@ tabsArr.forEach(element => {
 }
 
 const allCpns = [
-    {   
-        type: "coupon",
-        btnId: 'a',
-        discount: "20% OFF",
-        title: "20% ooff on order above $200",
-        id: "001",
-        code: "YhhhI89O",
-        modalInfo: "Use this Coupon to get $4 Off on any Order at AliExpress",
-        actionUrl: "https://www.google.com/",
-        uses: "732 uses today"
-    },
-    {   
-        type: "coupon",
-        discount: "10% OFF",
-        title: "10% ooff on order above $200",
-        id: "002",
-        btnId: 'b',
-        code: "YADSH9O",
-        modalInfo: "Use this Coupon to get $4 Off on any Order at AliExpress",
-        actionUrl: "https://www.google.com/",
-        uses: "562 uses today"
-    },
-    {   
-        type: "coupon",
-        discount: "23% OFF",
-        title: "23% ooff on order above $200",
-        id: "003",
-        btnId: 'c',
-        code: "SHUBG",
-        modalInfo: "Use this Coupon to get $4 Off on any Order at AliExpress",
-        actionUrl: "https://www.google.com/",
-        uses: "453 uses today"
-    },
-    {   
-        type: "coupon",
-        discount: "40% OFF",
-        title: "40% ooff on order above $200",
-        id: "004",
-        btnId: 'd',
-        code: "HVYSJHJIJ",
-        modalInfo: "Use this Coupon to get $4 Off on any Order at AliExpress",
-        actionUrl: "https://www.google.com/",
-        uses: "452 uses today"
-    },
+
+  {   
+    type: "coupon",
+    discount: "20% OFF",
+    btnId: 'a',
+    title: "All User Offer – $4 Off On All Orders Above $5 | Limited Period Offer",
+    id: "Aliexpress001",
+    code: "EXP38",
+    modalInfo: "Use this Coupon to get $4 Off on Orders Above $5",
+    actionUrl: "https://s.click.aliexpress.com/e/_A08RtR",
+    uses: "732 uses today"
+},
+{   
+    type: "coupon",
+    discount: "10% OFF",
+    btnId: 'b',
+    title: "$3.39 Off Any Order",
+    id: "Aliexpress002",
+    code: "MISSOU",
+    modalInfo: "Use this Coupon to get $3.39 Off on any Order at AliExpress",
+    actionUrl: "https://s.click.aliexpress.com/e/_A08RtR",
+    uses: "732 uses today"
+},
+{   
+    type: "coupon",
+    discount: "23% OFF",
+    title: "$4 Off Any Order",
+    btnId: 'c',
+    id: "Aliexpress003",
+    uses: "732 uses today",
+    code: "AEOFF176",
+    modalInfo: "Use this Coupon to get $4 Off on any Order at AliExpress",
+    uses: "732 uses today",
+    actionUrl: "https://s.click.aliexpress.com/e/_A08RtR"
+},
+{   
+    type: "coupon",
+    discount: "23% OFF",
+    title: "$4 Off Sitewide",
+    btnId: 'd',
+    id: "Aliexpress004",
+    code: "ALIYOUTUBE1",
+    modalInfo: "Use this Coupon to get $4 Off Sitewide",
+    uses: "732 uses today",
+    actionUrl: "https://s.click.aliexpress.com/e/_A08RtR"
+},
+    
     {   
       type: "coupon",
       btnId: 'e',
@@ -310,7 +313,7 @@ for(let i=0; i<allCpns.length; i++){
 
           <div class="peel-btn">
               <a href="${allCpns[i].actionUrl}" target="_blank">
-                  <button class="get-code" id="${allCpns[i].btnId} data-bs-toggle="modal" data-bs-target="#exampleModal">Get Code</button>
+                  <button class="get-code" id="${allCpns[i].btnId}" data-bs-toggle="modal" data-bs-target="#exampleModal">Get Code</button>
               </a>
           </div>
       </div>
