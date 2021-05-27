@@ -1,0 +1,685 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    background: white !important;
+    box-shadow: 0px 2px 5px rgba(194, 194, 194, 0.6);
+    z-index: 10;
+    width: 100%;
+}
+a.navbar-brand{
+    color: black !important;
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+    background: white;
+    z-index: 10;
+
+}
+a.navbar-brand{
+    color: black !important;
+    font-size: 25px;
+    font-weight: 600;
+}
+ul.navbar-nav li a{
+    padding: 0 1.5rem 0 1.5rem !important;
+    color: black !important;
+}
+ul.navbar-nav li a.active{
+    color: #1B54B0;
+    
+}
+ul.navbar-nav li a:hover{
+    color: #1B54B0 !important;
+}
+footer{
+    padding: 2rem 0 2rem 0;
+    box-shadow: -5px 0px 5px rgba(194, 194, 194, 0.6);
+}
+h3{
+    font-weight: 700;
+}
+footer ul li{
+    list-style: none;
+}
+footer ul{
+    padding-left: 0;
+}
+footer ul li a{
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+    font-size: 14px;
+}
+.copyright p{
+    font-size: 12px;
+}
+.landing-banner-container .row{
+    margin: auto;
+    justify-content: center;
+    column-gap: 1rem;
+}
+.landing-banner-container .row .col-md-5{
+    padding: 1rem;
+
+}
+.lading-banner{
+    height: 500px;
+    background: #faf7f6;
+    transition: .5s;
+    margin-top: -3rem;
+}
+.lading-banner-img{
+    
+    background: url(images/blob.svg);
+    position: relative;
+    place-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.lading-banner-img img.blob-img{
+    position: relative;
+    top: 10%;
+    object-fit: cover;
+    width: 80%;
+    transition: .5s;
+}
+.lading-banner-content{
+    display: grid;
+    place-items: center;
+}
+.lading-banner-content h3 {
+    font-size: 55px;
+    font-weight: 800;
+    margin-top: 1em;
+    transition: .5s;
+}
+.subsciption-form{
+    display: flex;
+}
+.subsciption-form input{
+    width: 65%;
+    height: 50px;
+    padding-left: 1rem;
+    border: none;
+    border-radius: 4px 0px 0px 4px;
+    box-shadow: 0px 3px 8px rgba(236, 236, 236, 0.6);
+}
+.subsciption-form input:focus{
+    outline: none;
+}
+.subsciption-form button{
+    width: 35%;
+    border: none;
+    background: #1B54B0;
+    font-size: 18px;
+    color: white;
+    border-radius: 0px 4px 4px 0px;
+    box-shadow: 0px 3px 8px rgba(236, 236, 236, 0.6);
+    transition: .5s;
+}
+.subsciption-form button:hover{
+    background: #11469c;
+}
+
+.mo-deals .row{
+    margin: auto;
+
+    justify-content: space-evenly;
+    column-gap: 0.25rem;
+}
+.mo-deals .row .col-md-3{
+    width: 22% !important;
+    box-shadow: 2px 4px 10px rgba(194, 194, 194, 0.6);
+    padding: 0px 0px 1rem 0px;
+    border-radius: 8px;
+    transition: .5s;
+    margin: 1rem 0 1rem 0;
+}
+.mo-deals .row .col-md-3:hover{
+    transform: scale(1.02);
+}
+.coupon-content{
+    padding: 0.8rem;
+    position: relative;
+}
+.img-div{
+    position: relative;
+}
+.img-div i{
+    position: absolute;
+    right: 1.5rem;
+    top: 1rem;
+    background: rgba(0, 0, 0, 0.418);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    transition: .5s;
+    cursor: pointer;
+}
+.img-div i:hover{
+    background: #E23F0C;
+}
+.img-div img{
+    width: 100%;
+    border-radius: 8px 8px 0px 0px;
+}
+.star-rating i{
+    color: #E23F0C;
+}
+p.coupon-info{
+    font-weight: 500;
+}
+.coupon-content a{
+    text-decoration: none;
+    color: black;
+}
+.button-code{
+    position: relative;
+    border: 1px dashed #E23F0C;
+    background: turquoise;
+    height: 40px;
+    border-radius: 5px;
+}
+h6.couponCode{
+    position: absolute;
+    right: 0.5rem;
+    cursor: pointer;
+    user-select: none;
+    margin-top: 0.6rem !important;
+}
+.peel-btn{
+    background: #E23F0C;
+    position: absolute;
+    width: 95%;
+    transition: .5s;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: -1px;
+    margin-left: -1px;
+    
+}
+.peel-btn:hover{
+    width: 87%;
+}
+button.get-code{
+    border: none;
+    background: none;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    height: 40px;
+    color: white;
+}
+button.get-deal{
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background: #1B54B0;
+    color: white;
+    height: 40px;
+    transition: .5s;
+}
+button.get-deal:hover{
+    background: #093e92;
+}
+.about .about-img-overlay{
+    width: 80%;
+    height: auto;
+    border-radius: 50%;
+    margin: auto;
+}
+.about-img-overlay img{
+    width: 100%;
+    object-fit: cover;
+    margin-top: 3rem;
+}
+.about-content h2{
+    font-weight: 700;
+    margin-top: 2rem;
+}
+.about-content p{
+    width: 90%;
+    text-align: justify;
+}
+.newsletter-div{
+    background: #E23F0C;
+    color: white;
+
+}
+.newsletter{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+   
+}
+.newsletter input{
+    width: 300px;
+    height: 40px;
+    padding-left: 1rem;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+}
+.newsletter input:focus{
+    outline: none;
+}
+.newsletter button.sign-up{
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    background: #1B54B0;
+    color: white;
+}
+.newsletter p{
+    padding: 0;
+}
+.contact{
+    background: #faf7f6;
+    padding-bottom: 3rem;
+}
+.contact h1{
+    padding-top: 2rem;
+    font-weight: 700;
+ }
+ .contact-form-div{
+     padding-top: 5rem;
+     padding-bottom: 5rem;
+     display: flex;
+     justify-content: space-evenly;
+ }
+.contact-form{
+    padding: 1.5rem;
+    box-shadow: 0px 0px 5px rgba(199, 199, 199, 0.6);
+    border-radius: 5px;
+}
+.input-group{
+    width: auto !important;
+}
+.input-group input{
+    width: 100%;
+    background: #faf7f6;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    padding-left: 1rem;
+    font-size: 14px;
+}
+.input-group textarea{
+    width: 100%;
+    padding-left: 1rem;
+    height: 120px;
+    font-size: 14px;
+    background: #faf7f6;
+    border: none;
+    border-radius: 5px;
+}
+.input-group textarea:focus{
+    outline: none;
+}
+.input-group input:focus{
+    outline: none;
+    
+}
+button.submit{
+    width: 180px;
+    height: 45px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background: #E23F0C;
+}
+.contact-info{
+    padding: 1.5rem;
+    box-shadow: 0px 0px 5px rgba(199, 199, 199, 0.6);
+    border-radius: 5px;
+}
+.contact-info p{
+    color: rgb(116, 115, 115);
+
+}
+.contact-info hr{
+    background: rgb(201, 200, 200);
+}
+.social{
+    display: flex;
+    margin: 1rem;
+    margin: auto;
+    justify-content: space-around;
+}
+.social i{
+    margin-top: 1rem;
+    background: white;
+    box-shadow: 0px 0px 8px rgba(199, 199, 199, 0.6);
+    padding: 0.5rem;
+    border-radius: 5px;
+    color: #E23F0C;
+    width: 30px;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    transition: .5s;
+}
+.social i:hover{
+    transform: scale(1.02);
+    color: white;
+    background: #E23F0C;
+
+}
+.tnc{
+    box-shadow: 0px 0px 8px rgba(199, 199, 199, 0.6);
+    padding: 2rem;
+    width: 70%;
+    margin: auto;
+    margin-top: -2rem;
+    margin-bottom: 3rem;
+    background: white;
+}
+.banner{
+    background: url(images/pexels-phuc-pham-2977345.jpg);
+    position: relative;
+    height: 200px;
+    width: 100%;
+    padding: 0;
+    background-position: center;
+
+}
+.banner-overlay{
+    position: absolute;
+    height: 200px;
+    background: rgba(0, 0, 0, 0.644);
+    padding: 0;
+    display: grid;
+    place-items: center;
+}
+.store-title h1{
+    color: white;
+    font-weight: 700;
+}
+.tabs .nav-tab .tab-link.active{
+    color: white;
+}
+a.tab-link{
+    color: black;
+    margin-right: 1rem;
+    background: rgb(240, 240, 240) !important;
+}
+a.tab-link:hover{
+    color: white;
+    background: #E23F0C !important;
+}
+
+span.activeDeals{
+    color: #E23F0C;
+}
+span.activeCoupons{
+    color: #E23F0C;
+}
+.tabs a{
+    cursor: pointer;
+}
+
+.coupon-img{
+    width: 25%;
+}
+.coupon-img img{
+    width: 100%;
+}
+
+
+
+span.active-deals{
+    color: #E23F0C;
+}
+span.active-coupons{
+    color: #E23F0C;
+}
+.about-store{
+    box-shadow: 0px 0px 8px rgba(199, 199, 199, 0.6);
+    border-radius: 5px;
+    padding: 1rem;
+    margin-top: 5.4rem;
+    width: 100%;
+}
+.about-us-page-2{
+    box-shadow: 0px 0px 8px rgba(199, 199, 199, 0.6);
+    border-radius: 5px;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    width: 100%;
+    text-align: justify;
+}
+.about-us-page-2 p{
+    font-size: 13px;
+}
+.about-store img{
+    width: 100%;
+}
+
+.modal-body img{
+    box-shadow: 0px 0px 8px rgba(224, 223, 223, 0.603);
+    width: 130px;
+    height: 130px;
+    object-fit: contain;
+    border-radius: 50%;
+    padding: 0.5rem;
+
+}
+.copy-code{
+    display: flex;
+    justify-content: center;
+}
+
+.copy-code span{
+    border: 1px solid #E23F0C;
+    padding: 0.3rem 1rem 0.3rem 1rem;
+    border-radius: 5px;
+    width: 40%;
+    margin: 0.5rem;
+}
+.copy-code button{
+    background: #E23F0C;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    padding: 0.3rem 1rem 0.3rem 1rem;
+    margin: 0.5rem;
+}
+.copy-code button:hover{
+    background: #e24e21;
+}
+.modal-body button.store{
+    width: 80%;
+    background: #e75326;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
+.modal-body button.store:hover{
+    background: #e65427;
+}
+.modal-body p{
+    font-size: 15px;
+}
+.allCoupons{
+    display: flex;
+    flex-wrap: wrap;
+}
+.allCoupons .coupon-card{
+    width: 30%;
+    box-shadow: 2px 4px 10px rgba(194, 194, 194, 0.6);
+    margin: 0.5rem;
+    justify-content: center;
+    border-radius: 5px;
+}
+.allCoupons .deal-card{
+    width: 30%;
+    box-shadow: 2px 4px 10px rgba(194, 194, 194, 0.6);
+    margin: 0.5rem;
+    justify-content: center;
+    border-radius: 5px;
+}
+a.active-tab{
+    color: white;
+    background: #E23F0C !important;
+}
+.all-offers .row{
+    margin: auto;
+    justify-content: center;
+}
+.all-offers ul{
+    margin-left: 0.5rem;
+}
+@media only screen and (max-width: 1200px){
+    .lading-banner-img img.blob-img{
+        top: 20%;
+    }
+    .lading-banner-content h3{
+        font-size: 45px;
+    }
+    .lading-banner{
+        height: 450px;
+        margin-top: -1.5rem;
+    }
+    .about-content p{
+        width: 100%;
+    }
+
+}
+@media only screen and (max-width: 992px){
+    .lading-banner-img{
+        display: none;
+    }
+    .lading-banner-content{
+        width: 90%;
+        text-align: center;
+    }
+    .mo-deals .row .col-md-3{
+        width: 40% !important;
+        margin: 1rem 0px 1rem 0;
+    }
+    .allCoupons .coupon-card{
+        width: 42%;
+    }
+    .allCoupons .deal-card{
+        width: 42%;
+    }
+    .container.all-offers{
+        max-width: 100%;
+    }
+    
+    
+}
+@media only screen and (max-width: 768px){
+    .about .about-img-overlay{
+        width: 95%;
+    }
+    .about-content p{
+        width: 100%;
+        text-align: justify;
+        padding-right: 1rem;
+    }
+    
+    .about-img{
+        order: 2;
+    }
+    .contact-form-div{
+        display: block;
+    }
+    .contact-info{
+        margin-top: 2rem;
+    }
+    
+}
+
+@media only screen and (max-width: 576px){
+    .lading-banner-content{
+        width: 100%;
+        text-align: center;
+    }
+    .subsciption-form{
+        display: block;
+    }
+    .subsciption-form input {
+        width: 100%;
+        margin-bottom: 0.5rem;
+        border-radius: 4px;
+    }
+    .subsciption-form button{
+        width: 100%;
+        height: 45px;
+        border-radius: 4px;
+    }
+    .lading-banner-content h3{
+        font-size: 35px;
+        margin-top: 3rem;
+    }
+    .landing-banner-container .row .col-md-5{
+        padding: 0;
+    }
+    .lading-banner{
+        height: 350px;
+    }
+    .mo-deals > h3{
+        padding-left: 1rem !important;
+    }
+    .mo-deals > p{
+        padding-left: 1rem !important;
+    }
+    
+    .mo-deals .row .col-md-3{
+        width: 90% !important;
+    };
+    
+    footer p{
+        padding: 0 !important;
+    }
+    .about-content > h2{
+        padding-left: 1rem;
+    }
+    .contact h1{
+        font-size: 25px;
+    }
+    .contact{
+        padding-bottom: 1rem;
+    }
+    .contact-form-div{
+        padding-top: 2rem;
+    }
+    .tnc{
+        width: 100%;
+        margin-top: 0.5rem;
+        padding: 1rem;
+    }
+    .allCoupons .coupon-card{
+        width: 100%;
+    }
+    .allCoupons .deal-card{
+        width: 100%;
+    }
+    .tabs a{
+        font-size: 10px;
+        padding: 6px;
+    }
+    .all-offers ul{
+        margin: auto !important;
+        justify-content: center;
+    }
+
+}
