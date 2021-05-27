@@ -546,6 +546,9 @@ a.active-tab{
 .all-offers ul{
     margin-left: 0.5rem;
 }
+.container.all-offers{
+    max-width: 100%;
+}
 @media only screen and (max-width: 1200px){
     .lading-banner-img img.blob-img{
         top: 20%;
