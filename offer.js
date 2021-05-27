@@ -27,10 +27,10 @@ tabsArr.forEach(element => {
       document.getElementById('all-tab').addEventListener('click', showAll);
       function showAll(){
         couponCards.forEach(el => {
-          el.style.display = "block";
+          el.style.display = "flex";
         });
         dealCards.forEach(elem => {
-          elem.style.display = "block";
+          elem.style.display = "flex";
         });
       }
     }else if(element === "deals-tab"){
@@ -40,7 +40,7 @@ tabsArr.forEach(element => {
           ele.style.display = "none";
         });
         dealCards.forEach(ele => {
-          ele.style.display = "block";
+          ele.style.display = "flex";
         });
       }
     }else if(element === "coupons-tab"){
@@ -50,7 +50,7 @@ tabsArr.forEach(element => {
           ele.style.display = "none";
         });
         couponCards.forEach(ele => {
-          ele.style.display = "block";
+          ele.style.display = "flex";
         });
       }
     }else if(element === "expired-tab"){
@@ -66,6 +66,9 @@ tabsArr.forEach(element => {
     }
   });
 
+
+  
+
 }
 
 const allCpns = [
@@ -77,7 +80,8 @@ const allCpns = [
         id: "001",
         code: "YhhhI89O",
         modalInfo: "Use this Coupon to get $4 Off on any Order at AliExpress",
-        actionUrl: "https://www.google.com/"
+        actionUrl: "https://www.google.com/",
+        uses: "732 uses today"
     },
     {   
         type: "coupon",
@@ -87,7 +91,8 @@ const allCpns = [
         btnId: 'b',
         code: "YADSH9O",
         modalInfo: "Use this Coupon to get $4 Off on any Order at AliExpress",
-        actionUrl: "https://www.google.com/"
+        actionUrl: "https://www.google.com/",
+        uses: "562 uses today"
     },
     {   
         type: "coupon",
@@ -97,7 +102,8 @@ const allCpns = [
         btnId: 'c',
         code: "SHUBG",
         modalInfo: "Use this Coupon to get $4 Off on any Order at AliExpress",
-        actionUrl: "https://www.google.com/"
+        actionUrl: "https://www.google.com/",
+        uses: "453 uses today"
     },
     {   
         type: "coupon",
@@ -107,113 +113,270 @@ const allCpns = [
         btnId: 'd',
         code: "HVYSJHJIJ",
         modalInfo: "Use this Coupon to get $4 Off on any Order at AliExpress",
-        actionUrl: "https://www.google.com/"
-    }
+        actionUrl: "https://www.google.com/",
+        uses: "452 uses today"
+    },
+    {   
+      type: "coupon",
+      btnId: 'e',
+      discount: "23% OFF",
+      title: "$4 Off Your Order",
+      id: "Aliexpress005",
+      code: "AEOFF154",
+      modalInfo: "Use this Coupon to get $4 Off",
+      actionUrl: "https://s.click.aliexpress.com/e/_A08RtR",
+      uses: "345 uses today"
+    },
+    {   
+      type: "coupon",
+      btnId: 'f',
+      discount: "23% OFF",
+      title: "Up to 25% Off Sitewide For First Time User",
+      id: "Aliexpress006",
+      code: "EXP60",
+      modalInfo: "Use this Coupon to get 25% Off Sitewide For First Time User",
+      actionUrl: "https://s.click.aliexpress.com/e/_A08RtR",
+      uses: "452 uses today"
+    },
+  {   
+      type: "coupon",
+      btnId: 'g',
+      discount: "23% OFF",
+      title: "$4 Discount For Order Over $5 For New Customer",
+      id: "Aliexpress007",
+      code: "SAHL1",
+      modalInfo: "Use this Coupon to get $4 Discount For Order Over $5 For New Customer",
+      actionUrl: "https://s.click.aliexpress.com/e/_A08RtR",
+      uses: "526 uses today"
+  },
+  {   
+      type: "coupon",
+      btnId: 'h',
+      discount: "23% OFF",
+      title: "$15 Off Orders Over $100+ at Aliexpress",
+      id: "Aliexpress008",
+      code: "BONUS10",
+      modalInfo: "Use this Coupon to get $15 Off Orders Over $100+ at Aliexpress",
+      actionUrl: "https://s.click.aliexpress.com/e/_A08RtR",
+      uses: "452 uses today"
+  },
+  {   
+      type: "coupon",
+      discount: "23% OFF",
+      btnId: 'i',
+      title: "$4 Off any Order at Aliexpress",
+      id: "Aliexpress009",
+      code: "ZW55",
+      modalInfo: "Use this Coupon to get $4 Off any Order at Aliexpress",
+      actionUrl: "https://s.click.aliexpress.com/e/_A08RtR",
+      uses: "477 uses today"
+  },
+  {   
+      type: "coupon",
+      discount: "23% OFF",
+      btnId: 'j',
+      title: "$7 Discount for order over $50 at Ali Express",
+      id: "Aliexpress010",
+      code: "ALIEXPRESSBF7",
+      modalInfo: "Use this Coupon to get $7 Discount for order over $50 at Ali Express",
+      actionUrl: "https://s.click.aliexpress.com/e/_A08RtR",
+      uses: "452 uses today"
+  },
+  {   
+      type: "coupon",
+      discount: "23% OFF",
+      title: "$4 Discount For Order Over $5 For New Customer",
+      id: "Aliexpress011",
+      btnId: 'k',
+      code: "P88YZZMV",
+      modalInfo: "Use this Coupon to get $4 Discount For Order Over $5 For New Customer",
+      actionUrl: "https://s.click.aliexpress.com/e/_A08RtR",
+      uses: "586 uses today"
+  },
+  {   
+      type: "coupon",
+      discount: "23% OFF",
+      title: "Extra $12 Off Orders over $110 Sitewide",
+      id: "Aliexpress012",
+      btnId: 'l',
+      code: "ALIEXPRESSBF12",
+      modalInfo: "Use this Coupon to get Extra $12 Off Orders over $110 Sitewide",
+      actionUrl: "https://s.click.aliexpress.com/e/_A08RtR",
+      uses: "452 uses today"
+  },
+  {   
+      type: "coupon",
+      discount: "23% OFF",
+      title: "$5 Off over $10+ with Paypal",
+      id: "Aliexpress013",
+      btnId: 'm',
+      code: "PAYPAL5",
+      modalInfo: "Use this Coupon to get $5 Off over $10+ with Paypal",
+      actionUrl: "https://s.click.aliexpress.com/e/_A08RtR",
+      uses: "452 uses today"
+  },
     
 ]
 const allDls = [
-    {   
-        type: "deal",
-        discount: "10% OFF",
-        title: "10% ooff on order above $100",
-        actionUrl: "https://www.google.com/"
-    },
-    {   
-        type: "deal",
-        discount: "20% OFF",
-        title: "20% ooff on order above $100",
-        actionUrl: "https://www.google.com/"
-    },
-    {   
-        type: "deal",
-        discount: "30% OFF",
-        title: "30% ooff on order above $100",
-        actionUrl: "https://www.google.com/"
-    },
-    {   
-        type: "deal",
-        discount: "40% OFF",
-        title: "40% ooff on order above $100",
-        actionUrl: "https://www.google.com/"
-    }
+  {
+    title: "New Customers - Up To $4 In Coupons When You Join AliExpress",
+    actionUrl: "https://s.click.aliexpress.com/e/_A08RtR",
+    uses: "525 uses today"
+  },
+  {
+    discount: "50% OFF",
+    expiry: "31-12-2021",
+    title: "Up To 50% Off Outdoor Apparel and Gear",
+    success: "100% Success",
+    actionUrl: "https://s.click.aliexpress.com/e/_A08RtR",
+    store: "aliexpress",
+    uses: "525 uses today"
+  },
+  {
+    discount: "50% OFF",
+    expiry: "31-12-2021",
+    title: "Up To 50% Off Home Improvement and Tools",
+    success: "100% Success",
+    actionUrl: "https://s.click.aliexpress.com/e/_A08RtR",
+    store: "aliexpress",
+    uses: "423 uses today"
+  },
+  {
+    discount: "50% OFF",
+    expiry: "31-12-2021",
+    title: "Up To 50% Off Home Decor",
+    success: "100% Success",
+    actionUrl: "https://s.click.aliexpress.com/e/_A08RtR",
+    store: "aliexpress",
+    uses: "585 uses today"
+  },
+  {
+    discount: "50% OFF",
+    expiry: "31-12-2021",
+    title: "Up To 50% Off Sale Items",
+    success: "100% Success",
+    actionUrl: "https://s.click.aliexpress.com/e/_A08RtR",
+    store: "aliexpress",
+    uses: "475 uses today"
+  },
+  {
+    discount: "60% OFF",
+    expiry: "31-12-2021",
+    title: "Up To 60% Off Sale Items",
+    success: "100% Success",
+    actionUrl: "https://s.click.aliexpress.com/e/_A08RtR",
+    store: "aliexpress",
+    uses: "485 uses today"
+  },
+  {
+    discount: "HOT DEAL",
+    expiry: "31-12-2021",
+    title: "Latest Discounts From Aliexpress",
+    success: "100% Success",
+    actionUrl: "https://s.click.aliexpress.com/e/_A08RtR",
+    store: "aliexpress",
+    uses: "525 uses today"
+  },
+  {
+    discount: "HOT DEAL",
+    expiry: "31-12-2021",
+    title: "Exclusive Savings",
+    success: "100% Success",
+    actionUrl: "https://s.click.aliexpress.com/e/_A08RtR",
+    store: "aliexpress",
+    uses: "525 uses today"
+  },
 ]
-console.log(allCpns);
+
+
 for(let i=0; i<allCpns.length; i++){
-    document.querySelector('.allCoupons').innerHTML += `
-    <div class="coupon-card">
-    <div class="img-div">
-        <img src="images/store-2.jpg" alt="store">
-        <i class="fa fa-heart-o" aria-hidden="true"></i>
-    </div>
-    <div class="coupon-content">
-        <div class="star-rating mt-1 mb-1">
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star-half-o" aria-hidden="true"></i>
-        </div>
-        <p class="coupon-info">${allCpns[i].title}</p>
-        <div class="button-code">
-            <h6 class="couponCode">${allCpns[i].code}</h6>
+  document.querySelector('.allCoupons').innerHTML += `
+  <div class="coupon-card">
+  <div class="img-card-img">
+      <img src="images/aliexpress.webp" alt="store">
+  </div>
+  <div class="coupons-details">
+      <p class="coupon-info coupon-title">${allCpns[i].title}</p>
+      <div class="star-rating store-stars mt-1 mb-1">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-half-o" aria-hidden="true"></i>
+      </div>
+      <p style="font-size: 12px; color: rgb(95, 94, 94); height: inherit;">${allCpns[i].uses}</p>
+      <div class="button-code store-code-btn-res">
+          <h6 class="couponCode">${allCpns[i].code}</h6>
 
-            <div class="peel-btn">
-                <a href="${allCpns[i].actionUrl}" target="_blank">
-                    <button class="get-code" id="${allCpns[i].btnId}" data-bs-toggle="modal" data-bs-target="#exampleModal">Get Code</button>
-                </a>
-            </div>
-        </div>
-    </div>
-    </div>
-    `;
-}
+          <div class="peel-btn">
+              <a href="${allCpns[i].actionUrl}" target="_blank">
+                  <button class="get-code" id="${allCpns[i].btnId} data-bs-toggle="modal" data-bs-target="#exampleModal">Get Code</button>
+              </a>
+          </div>
+      </div>
+      
 
+      
+  </div>
+  <div class="button-code store-code-btn-desk">
+      <h6 class="couponCode">${allCpns[i].code}</h6>
+
+      <div class="peel-btn">
+          <a href="${allCpns[i].actionUrl}" target="_blank">
+              <button class="get-code" id="${allCpns[i].btnId}" data-bs-toggle="modal" data-bs-target="#exampleModal">Get Code</button>
+          </a>
+      </div>
+  </div>
+</div>
+  `;
+
+};
 
 for(let i=0; i<allDls.length; i++){
-    document.querySelector('.allCoupons').innerHTML += `
-    <div class="deal-card">
-                            <div class="img-div">
-                                <img src="images/store-img.jpg" alt="store">
-                                <i class="fa fa-heart-o" aria-hidden="true"></i>
-                            </div>
-                            <div class="coupon-content">
-                                <div class="star-rating mt-1 mb-1">
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star" aria-hidden="true"></i>
-                                <i class="fa fa-star-half-o" aria-hidden="true"></i>
-                                </div>
-                                <p class="coupon-info">${allDls[i].title}</p>
-                                <a href="${allDls[i].actionUrl}">
-                                    <button class="get-deal">Get Deal</button>
-                                </a>
-                            </div>
-                        </div>
-    `;
-}
+  document.querySelector('.allCoupons').innerHTML += `
+  <div class="deal-card">
+  <div class="img-card-img deal-img-card">
+      <img src="images/aliexpress.webp" alt="store">
+  </div>
+  <div class="coupons-details">
+      <p class="coupon-info coupon-title">${allDls[i].title}</p>
+      <div class="star-rating store-stars mt-1 mb-1">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-half-o" aria-hidden="true"></i>
+      </div>
+      <p style="font-size: 12px; color: rgb(95, 94, 94); height: inherit;">${allDls[i].uses}</p>
+      <a href="${allDls[i].actionUrl}" class="get-deal-res" target="_blank">
+          <button class="get-deal">Get Deal</button>
+      </a>
+
+      
+  </div>
+  <a href="${allDls[i].actionUrl}" class="get-deal-desk" target="_blank">
+      <button class="get-deal">Get Deal</button>
+  </a>
+</div>
+  `;
+
+};
+
 
 var idArr = allCpns.map(a => a.btnId);
-console.log(idArr);
-for(let i=0; i<idArr.length; i++){
-    document.getElementById(idArr[i]).addEventListener('click', showMyModal);
-    function showMyModal(){
-        console.log("hello");
+  for(let i=0; i<idArr.length; i++){
+    document.getElementById(idArr[i]).addEventListener('click', function(){
       document.querySelector('.modal-body').innerHTML = `
-      <img src="images/amazon.jpg" alt="store-logo">
+      <img src="images/aliexpress.webp" alt="store-logo">
       <h6 class="mt-3 mb-3">${allCpns[i].title}</h6>
       <div class="copy-code">
           <span class="modal-code" id="modalCode">${allCpns[i].code}</span>
           <button class="copy" data-clipboard-target="#modalCode">Copy</button>
       </div>
       <p class="mt-2 mb-2">${allCpns[i].modalInfo}</p>
-  
       <a href="#">
           <button class="store">Visit Store</button>
       </a>
-      `;
-
-
-    };
-}
-
+      `
+    });
+  }

@@ -3,76 +3,195 @@ const allCoupons = [
         {   
             type: "coupon",
             discount: "20% OFF",
-            title: "20% ooff on order above $200",
-            id: "001",
-            code: "YhhhI89O",
-            modalInfo: "Use this Coupon to get $4 Off on any Order at AliExpress",
-            actionUrl: "https://www.google.com/"
+            title: "All User Offer – $4 Off On All Orders Above $5 | Limited Period Offer",
+            id: "Aliexpress001",
+            code: "EXP38",
+            modalInfo: "Use this Coupon to get $4 Off on Orders Above $5",
+            actionUrl: "https://s.click.aliexpress.com/e/_A08RtR"
         },
         {   
             type: "coupon",
             discount: "10% OFF",
-            title: "10% ooff on order above $200",
-            id: "002",
-            code: "YADSH9O",
-            modalInfo: "Use this Coupon to get $4 Off on any Order at AliExpress",
-            actionUrl: "https://www.google.com/"
+            title: "$3.39 Off Any Order",
+            id: "Aliexpress002",
+            code: "MISSOU",
+            modalInfo: "Use this Coupon to get $3.39 Off on any Order at AliExpress",
+            actionUrl: "https://s.click.aliexpress.com/e/_A08RtR"
         },
         {   
             type: "coupon",
             discount: "23% OFF",
-            title: "23% ooff on order above $200",
-            id: "003",
-            code: "SHUBG",
+            title: "$4 Off Any Order",
+            id: "Aliexpress003",
+            code: "AEOFF176",
             modalInfo: "Use this Coupon to get $4 Off on any Order at AliExpress",
-            actionUrl: "https://www.google.com/"
+            actionUrl: "https://s.click.aliexpress.com/e/_A08RtR"
         },
         {   
             type: "coupon",
-            discount: "40% OFF",
-            title: "40% ooff on order above $200",
-            id: "004",
-            code: "HVYSJHJIJ",
-            modalInfo: "Use this Coupon to get $4 Off on any Order at AliExpress",
-            actionUrl: "https://www.google.com/"
-        }
+            discount: "23% OFF",
+            title: "$4 Off Sitewide",
+            id: "Aliexpress004",
+            code: "ALIYOUTUBE1",
+            modalInfo: "Use this Coupon to get $4 Off Sitewide",
+            actionUrl: "https://s.click.aliexpress.com/e/_A08RtR"
+        },
+        {   
+            type: "coupon",
+            discount: "23% OFF",
+            title: "$4 Off Your Order",
+            id: "Aliexpress005",
+            code: "AEOFF154",
+            modalInfo: "Use this Coupon to get $4 Off",
+            actionUrl: "https://s.click.aliexpress.com/e/_A08RtR"
+        },
+        {   
+            type: "coupon",
+            discount: "23% OFF",
+            title: "Up to 25% Off Sitewide For First Time User",
+            id: "Aliexpress006",
+            code: "EXP60",
+            modalInfo: "Use this Coupon to get 25% Off Sitewide For First Time User",
+            actionUrl: "https://s.click.aliexpress.com/e/_A08RtR"
+        },
+        {   
+            type: "coupon",
+            discount: "23% OFF",
+            title: "$4 Discount For Order Over $5 For New Customer",
+            id: "Aliexpress007",
+            code: "SAHL1",
+            modalInfo: "Use this Coupon to get $4 Discount For Order Over $5 For New Customer",
+            actionUrl: "https://s.click.aliexpress.com/e/_A08RtR"
+        },
+        {   
+            type: "coupon",
+            discount: "23% OFF",
+            title: "$15 Off Orders Over $100+ at Aliexpress",
+            id: "Aliexpress008",
+            code: "BONUS10",
+            modalInfo: "Use this Coupon to get $15 Off Orders Over $100+ at Aliexpress",
+            actionUrl: "https://s.click.aliexpress.com/e/_A08RtR"
+        },
+        {   
+            type: "coupon",
+            discount: "23% OFF",
+            title: "$4 Off any Order at Aliexpress",
+            id: "Aliexpress009",
+            code: "ZW55",
+            modalInfo: "Use this Coupon to get $4 Off any Order at Aliexpress",
+            actionUrl: "https://s.click.aliexpress.com/e/_A08RtR"
+        },
+        {   
+            type: "coupon",
+            discount: "23% OFF",
+            title: "$7 Discount for order over $50 at Ali Express",
+            id: "Aliexpress010",
+            code: "ALIEXPRESSBF7",
+            modalInfo: "Use this Coupon to get $7 Discount for order over $50 at Ali Express",
+            actionUrl: "https://s.click.aliexpress.com/e/_A08RtR"
+        },
+        {   
+            type: "coupon",
+            discount: "23% OFF",
+            title: "$4 Discount For Order Over $5 For New Customer",
+            id: "Aliexpress011",
+            code: "P88YZZMV",
+            modalInfo: "Use this Coupon to get $4 Discount For Order Over $5 For New Customer",
+            actionUrl: "https://s.click.aliexpress.com/e/_A08RtR"
+        },
+        {   
+            type: "coupon",
+            discount: "23% OFF",
+            title: "Extra $12 Off Orders over $110 Sitewide",
+            id: "Aliexpress012",
+            code: "ALIEXPRESSBF12",
+            modalInfo: "Use this Coupon to get Extra $12 Off Orders over $110 Sitewide",
+            actionUrl: "https://s.click.aliexpress.com/e/_A08RtR"
+        },
+        {   
+            type: "coupon",
+            discount: "23% OFF",
+            title: "$5 Off over $10+ with Paypal",
+            id: "Aliexpress013",
+            code: "PAYPAL5",
+            modalInfo: "Use this Coupon to get $5 Off over $10+ with Paypal",
+            actionUrl: "https://s.click.aliexpress.com/e/_A08RtR"
+        },
+        
         
 ]
 const allDeals = [
-    {   
-        type: "deal",
-        discount: "10% OFF",
-        title: "10% ooff on order above $100",
-        actionUrl: "https://www.google.com/"
-    },
-    {   
-        type: "deal",
-        discount: "20% OFF",
-        title: "20% ooff on order above $100",
-        actionUrl: "https://www.google.com/"
-    },
-    {   
-        type: "deal",
-        discount: "30% OFF",
-        title: "30% ooff on order above $100",
-        actionUrl: "https://www.google.com/"
-    },
-    {   
-        type: "deal",
-        discount: "40% OFF",
-        title: "40% ooff on order above $100",
-        actionUrl: "https://www.google.com/"
-    }
+      {
+        title: "New Customers - Up To $4 In Coupons When You Join AliExpress",
+        actionUrl: "https://s.click.aliexpress.com/e/_A08RtR",
+      },
+      {
+        discount: "50% OFF",
+        expiry: "31-12-2021",
+        title: "Up To 50% Off Outdoor Apparel and Gear",
+        success: "100% Success",
+        actionUrl: "https://s.click.aliexpress.com/e/_A08RtR",
+        store: "aliexpress"
+      },
+      {
+        discount: "50% OFF",
+        expiry: "31-12-2021",
+        title: "Up To 50% Off Home Improvement and Tools",
+        success: "100% Success",
+        actionUrl: "https://s.click.aliexpress.com/e/_A08RtR",
+        store: "aliexpress"
+      },
+      {
+        discount: "50% OFF",
+        expiry: "31-12-2021",
+        title: "Up To 50% Off Home Decor",
+        success: "100% Success",
+        actionUrl: "https://s.click.aliexpress.com/e/_A08RtR",
+        store: "aliexpress"
+      },
+      {
+        discount: "50% OFF",
+        expiry: "31-12-2021",
+        title: "Up To 50% Off Sale Items",
+        success: "100% Success",
+        actionUrl: "https://s.click.aliexpress.com/e/_A08RtR",
+        store: "aliexpress"
+      },
+      {
+        discount: "60% OFF",
+        expiry: "31-12-2021",
+        title: "Up To 60% Off Sale Items",
+        success: "100% Success",
+        actionUrl: "https://s.click.aliexpress.com/e/_A08RtR",
+        store: "aliexpress"
+      },
+      {
+        discount: "HOT DEAL",
+        expiry: "31-12-2021",
+        title: "Latest Discounts From Aliexpress",
+        success: "100% Success",
+        actionUrl: "https://s.click.aliexpress.com/e/_A08RtR",
+        store: "aliexpress"
+      },
+      {
+        discount: "HOT DEAL",
+        expiry: "31-12-2021",
+        title: "Exclusive Savings",
+        success: "100% Success",
+        actionUrl: "https://s.click.aliexpress.com/e/_A08RtR",
+        store: "aliexpress"
+      },
+      
 ]
 
 
 var buttonId = allCoupons.map(a => a.id);
 
-    for(let i=0; i < 4; i++) {
+    for(let i=0; i < 8; i++) {
         document.querySelector('.home-coupons').innerHTML += `
         <div class="col-md-3">
         <div class="img-div">
-          <img src="images/store-2.jpg" alt="store">
+          <img src="images/aliexpress.webp" alt="store">
           <i class="fa fa-heart-o" aria-hidden="true"></i>
         </div>
         <div class="coupon-content">
@@ -103,11 +222,11 @@ var buttonId = allCoupons.map(a => a.id);
 
 
 
-for(let i=0; i<4; i++){
+for(let i=0; i<8; i++){
     document.querySelector('.home-deals').innerHTML += `
     <div class="col-md-3">
-    <div class="img-div">
-        <img src="images/store-img.jpg" alt="store">
+    <div class="img-div deal-img-div">
+        <img src="images/aliexpress.webp" alt="store">
         <i class="fa fa-heart-o" aria-hidden="true"></i>
     </div>
     <div class="coupon-content">
@@ -134,7 +253,7 @@ for(let i=0; i<buttonId.length; i++){
     document.getElementById(buttonId[i]).addEventListener('click', showModal);
     function showModal(){
       document.querySelector('.modal-body').innerHTML = `
-      <img src="images/amazon.jpg" alt="store-logo">
+      <img src="images/aliexpress.webp" alt="store-logo">
       <h6 class="mt-3 mb-3">${allCoupons[i].title}</h6>
       <div class="copy-code">
           <span class="modal-code" id="modalCode">${allCoupons[i].code}</span>

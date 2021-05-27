@@ -153,6 +153,17 @@ footer ul li a{
 }
 .img-div{
     position: relative;
+    background: #F96302;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+}
+.deal-img-div{
+    background: #CE1F26;
+    position: relative;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
 }
 .img-div i{
     position: absolute;
@@ -171,8 +182,16 @@ footer ul li a{
     background: #E23F0C;
 }
 .img-div img{
-    width: 100%;
-    border-radius: 8px 8px 0px 0px;
+    width: 100px;
+    height: 100px;
+
+    border-radius: 50%;
+}
+.deal-img-div img{
+    width: 100px;
+    height: 100px;
+
+    border-radius: 50%;
 }
 .star-rating i{
     color: #E23F0C;
@@ -522,19 +541,67 @@ span.active-coupons{
     flex-wrap: wrap;
 }
 .allCoupons .coupon-card{
-    width: 30%;
+    width: 100%;
     box-shadow: 2px 4px 10px rgba(194, 194, 194, 0.6);
     margin: 0.5rem;
-    justify-content: center;
     border-radius: 5px;
+    display: flex;
 }
 .allCoupons .deal-card{
-    width: 30%;
+    width: 100%;
     box-shadow: 2px 4px 10px rgba(194, 194, 194, 0.6);
     margin: 0.5rem;
-    justify-content: center;
+    border-radius: 5px;
+    display: flex;
+}
+.img-card-img{
+    width: 20%;
+    background: #F96302;
+    text-align: center;
+    display: grid;
+    place-items: center;
     border-radius: 5px;
 }
+.deal-img-card{
+    background: #CE1F26;
+}
+.coupons-details{
+    width: 50%;
+    padding: 0.5rem 1rem;
+}
+.coupons-details p{
+    margin: 0;
+}
+.img-card-img img{
+    width: 50px;
+    height: 50px;
+
+    object-fit: fill;
+    border-radius: 50%;
+}
+
+.store-code-btn-desk{
+    width: 25%;
+    margin-top: 2.5%;
+}
+.get-deal-desk{
+    width: 25%;
+    margin-top: 2.5%;
+}
+.store-code-btn-res{
+    width: 60%;
+    display: none;
+}
+.get-deal-res{
+    width: 60%;
+    display: none;
+}
+.peel-btn a{
+    text-decoration: none;
+}
+
+
+
 a.active-tab{
     color: white;
     background: #E23F0C !important;
@@ -546,8 +613,15 @@ a.active-tab{
 .all-offers ul{
     margin-left: 0.5rem;
 }
-.container.all-offers{
-    max-width: 100%;
+p.coupon-info{
+    height: 42px;
+    overflow: scroll;
+}
+p.coupon-info::-webkit-scrollbar{
+    display: none;
+}
+p.coupon-title{
+    height: inherit;
 }
 @media only screen and (max-width: 1200px){
     .lading-banner-img img.blob-img{
@@ -580,14 +654,8 @@ a.active-tab{
         width: 40% !important;
         margin: 1rem 0px 1rem 0;
     }
-    .allCoupons .coupon-card{
-        width: 42%;
-    }
-    .allCoupons .deal-card{
-        width: 42%;
-    }
-    .container.all-offers{
-        max-width: 100%;
+    .navbar-collapse a.nav-link{
+        margin: 0.5rem 0 0.5rem 0;
     }
     
     
@@ -599,7 +667,7 @@ a.active-tab{
     .about-content p{
         width: 100%;
         text-align: justify;
-        padding-right: 1rem;
+        padding: 1.2rem;
     }
     
     .about-img{
@@ -657,7 +725,7 @@ a.active-tab{
         padding: 0 !important;
     }
     .about-content > h2{
-        padding-left: 1rem;
+        padding-left: 1.2rem;
     }
     .contact h1{
         font-size: 25px;
@@ -673,12 +741,6 @@ a.active-tab{
         margin-top: 0.5rem;
         padding: 1rem;
     }
-    .allCoupons .coupon-card{
-        width: 100%;
-    }
-    .allCoupons .deal-card{
-        width: 100%;
-    }
     .tabs a{
         font-size: 10px;
         padding: 6px;
@@ -686,6 +748,53 @@ a.active-tab{
     .all-offers ul{
         margin: auto !important;
         justify-content: center;
+    }
+    .img-card-img{
+        width: 30%;
+    }
+    .img-card-img img{
+        object-fit: cover;
+    }
+    .store-code-btn-desk{
+        width: 25%;
+        margin-top: 2.5%;
+        display: none;
+    }
+    .store-code-btn-res{
+        width: 90%;
+        display: block;
+    }
+    .coupons-details{
+        width: 70%;
+    }
+    .store-stars{
+        display: none;
+    }
+    .coupons-details > p{
+        height: 45px;
+        overflow: scroll;
+    }
+    .coupons-details > p::-webkit-scrollbar{
+        display: none;
+    }
+    .get-deal-res{
+        width: 90%;
+        display: block;
+    }
+    .get-deal-desk{
+        display: none;
+    }
+    .newsletter{
+        display: block;
+    }
+    .newsletter button.sign-up{
+        margin-top: 0.5rem;
+        width: 100%;
+        border-radius: 5px;
+    }
+    .newsletter input{
+        width: 100%;
+        border-radius: 5px;
     }
 
 }
