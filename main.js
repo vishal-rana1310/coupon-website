@@ -1,3 +1,6 @@
+const time = new Date();
+const month = time.toLocaleString('default', { month: 'long'});
+const year = time.getFullYear();
 new ClipboardJS('.copy');
 const allCoupons = [
         {   

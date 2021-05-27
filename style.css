@@ -14,9 +14,6 @@ html{
     z-index: 10;
     width: 100%;
 }
-a.navbar-brand{
-    color: black !important;
-}
 
 .navbar-collapse{
     justify-content: flex-end;
@@ -24,10 +21,11 @@ a.navbar-brand{
     z-index: 10;
 
 }
-a.navbar-brand{
-    color: black !important;
-    font-size: 25px;
-    font-weight: 600;
+a.navbar-brand img{
+    width: 250px;
+    height: 50px;
+    object-fit: cover;
+
 }
 ul.navbar-nav li a{
     padding: 0 1.5rem 0 1.5rem !important;
@@ -623,6 +621,10 @@ p.coupon-info::-webkit-scrollbar{
 p.coupon-title{
     height: inherit;
 }
+
+.img-card-img h4{
+    color: white;
+}
 @media only screen and (max-width: 1200px){
     .lading-banner-img img.blob-img{
         top: 20%;
@@ -795,6 +797,9 @@ p.coupon-title{
     .newsletter input{
         width: 100%;
         border-radius: 5px;
+    }
+    a.navbar-brand img{
+        width: 200px;
     }
 
 }

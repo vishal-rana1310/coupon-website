@@ -1,3 +1,6 @@
+document.querySelector('meta[name="description"]').setAttribute("content", "Save online with AliExpress promo codes & coupons for "+ month+'-'+year);
+document.querySelector('meta[name="keywords"]').setAttribute("content", "AliExpress, coupon, promo, coupon, voucher, discount, code, promotion, sale, deals, offers, " + month+'-'+year);
+
 const tabsArr = ["deals-tab", "coupons-tab", "all-tab", "expired-tab"];
 
 window.onload = function(){
@@ -75,7 +78,7 @@ const allCpns = [
 
   {   
     type: "coupon",
-    discount: "20% OFF",
+    discount: "$4 OFF",
     btnId: 'a',
     title: "All User Offer – $4 Off On All Orders Above $5 | Limited Period Offer",
     id: "Aliexpress001",
@@ -86,7 +89,7 @@ const allCpns = [
 },
 {   
     type: "coupon",
-    discount: "10% OFF",
+    discount: "$3.39 OFF",
     btnId: 'b',
     title: "$3.39 Off Any Order",
     id: "Aliexpress002",
@@ -97,7 +100,7 @@ const allCpns = [
 },
 {   
     type: "coupon",
-    discount: "23% OFF",
+    discount: "$4 OFF",
     title: "$4 Off Any Order",
     btnId: 'c',
     id: "Aliexpress003",
@@ -109,7 +112,7 @@ const allCpns = [
 },
 {   
     type: "coupon",
-    discount: "23% OFF",
+    discount: "$4 OFF",
     title: "$4 Off Sitewide",
     btnId: 'd',
     id: "Aliexpress004",
@@ -122,7 +125,7 @@ const allCpns = [
     {   
       type: "coupon",
       btnId: 'e',
-      discount: "23% OFF",
+      discount: "$4 OFF",
       title: "$4 Off Your Order",
       id: "Aliexpress005",
       code: "AEOFF154",
@@ -132,8 +135,8 @@ const allCpns = [
     },
     {   
       type: "coupon",
-      btnId: 'f',
-      discount: "23% OFF",
+      btnId: '$3.39 OFF',
+      discount: "25% OFF",
       title: "Up to 25% Off Sitewide For First Time User",
       id: "Aliexpress006",
       code: "EXP60",
@@ -144,7 +147,7 @@ const allCpns = [
   {   
       type: "coupon",
       btnId: 'g',
-      discount: "23% OFF",
+      discount: "$4 OFF",
       title: "$4 Discount For Order Over $5 For New Customer",
       id: "Aliexpress007",
       code: "SAHL1",
@@ -155,7 +158,7 @@ const allCpns = [
   {   
       type: "coupon",
       btnId: 'h',
-      discount: "23% OFF",
+      discount: "$15 OFF",
       title: "$15 Off Orders Over $100+ at Aliexpress",
       id: "Aliexpress008",
       code: "BONUS10",
@@ -165,7 +168,7 @@ const allCpns = [
   },
   {   
       type: "coupon",
-      discount: "23% OFF",
+      discount: "$4 OFF",
       btnId: 'i',
       title: "$4 Off any Order at Aliexpress",
       id: "Aliexpress009",
@@ -176,7 +179,7 @@ const allCpns = [
   },
   {   
       type: "coupon",
-      discount: "23% OFF",
+      discount: "$7 OFF",
       btnId: 'j',
       title: "$7 Discount for order over $50 at Ali Express",
       id: "Aliexpress010",
@@ -187,7 +190,7 @@ const allCpns = [
   },
   {   
       type: "coupon",
-      discount: "23% OFF",
+      discount: "$4 OFF",
       title: "$4 Discount For Order Over $5 For New Customer",
       id: "Aliexpress011",
       btnId: 'k',
@@ -198,7 +201,7 @@ const allCpns = [
   },
   {   
       type: "coupon",
-      discount: "23% OFF",
+      discount: "$12 OFF",
       title: "Extra $12 Off Orders over $110 Sitewide",
       id: "Aliexpress012",
       btnId: 'l',
@@ -209,7 +212,7 @@ const allCpns = [
   },
   {   
       type: "coupon",
-      discount: "23% OFF",
+      discount: "$5 OFF",
       title: "$5 Off over $10+ with Paypal",
       id: "Aliexpress013",
       btnId: 'm',
@@ -221,7 +224,8 @@ const allCpns = [
     
 ]
 const allDls = [
-  {
+  { 
+    discount: "$4 OFF",
     title: "New Customers - Up To $4 In Coupons When You Join AliExpress",
     actionUrl: "https://s.click.aliexpress.com/e/_A08RtR",
     uses: "525 uses today"
@@ -296,7 +300,7 @@ for(let i=0; i<allCpns.length; i++){
   document.querySelector('.allCoupons').innerHTML += `
   <div class="coupon-card">
   <div class="img-card-img">
-      <img src="images/aliexpress.webp" alt="store">
+      <h4>${allCpns[i].discount}</h4>
   </div>
   <div class="coupons-details">
       <p class="coupon-info coupon-title">${allCpns[i].title}</p>
@@ -313,7 +317,7 @@ for(let i=0; i<allCpns.length; i++){
 
           <div class="peel-btn">
               <a href="${allCpns[i].actionUrl}" target="_blank">
-                  <button class="get-code" id="${allCpns[i].btnId}" data-bs-toggle="modal" data-bs-target="#exampleModal">Get Code</button>
+                  <button class="get-code" id="${allCpns[i].id}" data-bs-toggle="modal" data-bs-target="#exampleModal">Get Code</button>
               </a>
           </div>
       </div>
@@ -339,7 +343,7 @@ for(let i=0; i<allDls.length; i++){
   document.querySelector('.allCoupons').innerHTML += `
   <div class="deal-card">
   <div class="img-card-img deal-img-card">
-      <img src="images/aliexpress.webp" alt="store">
+    <h4>${allDls[i].discount}</h4>
   </div>
   <div class="coupons-details">
       <p class="coupon-info coupon-title">${allDls[i].title}</p>
@@ -367,8 +371,26 @@ for(let i=0; i<allDls.length; i++){
 
 
 var idArr = allCpns.map(a => a.btnId);
+var btnIdArr = allCpns.map(a => a.id);
+console.log(btnIdArr);
   for(let i=0; i<idArr.length; i++){
     document.getElementById(idArr[i]).addEventListener('click', function(){
+      document.querySelector('.modal-body').innerHTML = `
+      <img src="images/aliexpress.webp" alt="store-logo">
+      <h6 class="mt-3 mb-3">${allCpns[i].title}</h6>
+      <div class="copy-code">
+          <span class="modal-code" id="modalCode">${allCpns[i].code}</span>
+          <button class="copy" data-clipboard-target="#modalCode">Copy</button>
+      </div>
+      <p class="mt-2 mb-2">${allCpns[i].modalInfo}</p>
+      <a href="#">
+          <button class="store">Visit Store</button>
+      </a>
+      `
+    });
+  }
+  for(let i=0; i<btnIdArr.length; i++){
+    document.getElementById(btnIdArr[i]).addEventListener('click', function(){
       document.querySelector('.modal-body').innerHTML = `
       <img src="images/aliexpress.webp" alt="store-logo">
       <h6 class="mt-3 mb-3">${allCpns[i].title}</h6>
