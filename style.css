@@ -649,6 +649,9 @@ p.coupon-title{
 .input-field textarea{
     padding-top: 1rem;
 }
+.contact-info a:hover{
+    color: #1B54B0 !important;
+}
 @media only screen and (max-width: 1200px){
     .lading-banner-img img.blob-img{
         top: 20%;
