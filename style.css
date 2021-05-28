@@ -156,6 +156,13 @@ footer ul li a{
     text-align: center;
     border-radius: 5px 5px 0 0;
 }
+.img-div h5.aliexpress{
+    font-family: 'Dancing Script', sans-serif;
+    color: white;
+    margin: 2rem 0 2rem 0;
+    font-weight: 700;
+    font-size: 30px;
+}
 .deal-img-div{
     background: #CE1F26;
     position: relative;
@@ -503,7 +510,7 @@ span.active-coupons{
     border: 1px solid #E23F0C;
     padding: 0.3rem 1rem 0.3rem 1rem;
     border-radius: 5px;
-    width: 40%;
+    width: 50%;
     margin: 0.5rem;
 }
 .copy-code button{
@@ -624,6 +631,23 @@ p.coupon-title{
 
 .img-card-img h4{
     color: white;
+}
+.contact-form-div .row{
+    margin: auto;
+    justify-content: center;
+}
+.col-md-4.contact-info{
+    margin: 0 1rem 0rem 1rem; 
+}
+
+.col-md-6.input-field{
+    padding-left: 0;
+}
+.input-group .input-field{
+    padding-left: 0;
+}
+.input-field textarea{
+    padding-top: 1rem;
 }
 @media only screen and (max-width: 1200px){
     .lading-banner-img img.blob-img{
@@ -800,6 +824,21 @@ p.coupon-title{
     }
     a.navbar-brand img{
         width: 200px;
+    }
+    .col-md-7.contact-form{
+        order: 2 !important;
+    }
+    .col-md-6.input-field{
+        padding: 0;
+    }
+    .input-group .input-field{
+        padding: 0;
+    }
+    .input-field textarea{
+        padding-top: 1rem;
+    }
+    .col-md-4.contact-info{
+        margin-bottom: 1rem;
     }
 
 }
