@@ -316,8 +316,8 @@ for(let i=0; i<allCpns.length; i++){
           <h6 class="couponCode">${allCpns[i].code}</h6>
 
           <div class="peel-btn">
-              <a href="${allCpns[i].actionUrl}" target="_blank">
-                  <button class="get-code" id="${allCpns[i].id}" data-bs-toggle="modal" data-bs-target="#exampleModal">Get Code</button>
+              <a>
+                  <button class="get-code" id="${allCpns[i].id}" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick=gtag_report_conversion(\"${allCpns[i].actionUrl}\")>Get Code</button>
               </a>
           </div>
       </div>
@@ -329,8 +329,8 @@ for(let i=0; i<allCpns.length; i++){
       <h6 class="couponCode">${allCpns[i].code}</h6>
 
       <div class="peel-btn">
-          <a href="${allCpns[i].actionUrl}" target="_blank">
-              <button class="get-code" id="${allCpns[i].btnId}" data-bs-toggle="modal" data-bs-target="#exampleModal">Get Code</button>
+          <a>
+              <button class="get-code" id="${allCpns[i].btnId}" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick=gtag_report_conversion(\"${allCpns[i].actionUrl}\")>Get Code</button>
           </a>
       </div>
   </div>
@@ -355,14 +355,14 @@ for(let i=0; i<allDls.length; i++){
           <i class="fa fa-star-half-o" aria-hidden="true"></i>
       </div>
       <p style="font-size: 12px; color: rgb(95, 94, 94); height: inherit;">${allDls[i].uses}</p>
-      <a href="${allDls[i].actionUrl}" class="get-deal-res" target="_blank">
-          <button class="get-deal">Get Deal</button>
+      <a class="get-deal-res">
+          <button class="get-deal" onclick=gtag_report_conversion(\"${allDls[i].actionUrl}\")>Get Deal</button>
       </a>
 
       
   </div>
-  <a href="${allDls[i].actionUrl}" class="get-deal-desk" target="_blank">
-      <button class="get-deal">Get Deal</button>
+  <a class="get-deal-desk">
+      <button class="get-deal" onclick=gtag_report_conversion(\"${allDls[i].actionUrl}\")>Get Deal</button>
   </a>
 </div>
   `;

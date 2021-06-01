@@ -210,8 +210,8 @@ var buttonId = allCoupons.map(a => a.id);
             <h6 class="couponCode">${allCoupons[i].code}</h6>
     
               <div class="peel-btn">
-                <a href="${allCoupons[i].actionUrl}" target="_blank">
-                  <button class="get-code" id="${allCoupons[i].id}" data-bs-toggle="modal" data-bs-target="#exampleModal">Get Code</button>
+                <a>
+                  <button class="get-code" id="${allCoupons[i].id}" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick=gtag_report_conversion(\"${allCoupons[i].actionUrl}\")>Get Code</button>
                 </a>
               </div>
           </div>
@@ -241,8 +241,8 @@ for(let i=0; i<8; i++){
         <i class="fa fa-star-half-o" aria-hidden="true"></i>
         </div>
         <p class="coupon-info">${allDeals[i].title}</p>
-        <a href="${allDeals[i].actionUrl}" target="_blank">
-        <button class="get-deal">Get Deal</button>
+        <a>
+        <button class="get-deal" onclick=gtag_report_conversion(\"${allDeals[i].actionUrl}\")>Get Deal</button>
         </a>
     </div>
 
