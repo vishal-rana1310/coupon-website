@@ -4,6 +4,66 @@ const year = time.getFullYear();
 new ClipboardJS('.copy');
 const allCoupons = [
   {
+    id: "Aliexpress0014",
+    discount: "$3 OFF",
+    title: "3$ OFF 30$",
+    expiry: "Expires on 27-06-21",
+    code: "618ALI3",
+    modalInfo: "Use this Coupon to get 3$ OFF 30$",
+    buttonId: "ali14",
+    success: "100% Success",
+    actionUrl: "https://s.click.aliexpress.com/e/_Ammq3f",
+    store: "aliexpress"
+  },
+  {
+    id: "Aliexpress0015",
+    discount: "$6 OFF",
+    title: "6$ OFF 50$",
+    expiry: "Expires on 27-06-21",
+    code: "618ALI6",
+    modalInfo: "Use this Coupon to get 6$ OFF 50$",
+    buttonId: "ali15",
+    success: "100% Success",
+    actionUrl: "https://s.click.aliexpress.com/e/_Ammq3f",
+    store: "aliexpress"
+  },
+  {
+    id: "Aliexpress0016",
+    discount: "$11 OFF",
+    title: "11$ OFF 90$",
+    expiry: "Expires on 27-06-21",
+    code: "618ALI11",
+    modalInfo: "Use this Coupon to get 11$ OFF 90$",
+    buttonId: "ali16",
+    success: "100% Success",
+    actionUrl: "https://s.click.aliexpress.com/e/_Ammq3f",
+    store: "aliexpress"
+  },
+  {
+    id: "Aliexpress0017",
+    discount: "$13 OFF",
+    title: "13$ OFF 110$",
+    expiry: "Expires on 27-06-21",
+    code: "618ALI13",
+    modalInfo: "Use this Coupon to get 13$ OFF 110$",
+    buttonId: "ali17",
+    success: "100% Success",
+    actionUrl: "https://s.click.aliexpress.com/e/_Ammq3f",
+    store: "aliexpress"
+  },
+  {
+    id: "Aliexpress0018",
+    discount: "$3 OFF",
+    title: "$3 OFF $4",
+    expiry: "Expires on 27-06-21",
+    code: "6183NEW",
+    modalInfo: "Use this Coupon to get $3 OFF $4",
+    buttonId: "ali18",
+    success: "100% Success",
+    actionUrl: "https://s.click.aliexpress.com/e/_Ammq3f",
+    store: "aliexpress"
+  },
+  {
     id: "Aliexpress001",
     discount: "$4 OFF",
     title: "All User Offer – $4 Off On All Orders Above $5 | Limited Period Offer",
