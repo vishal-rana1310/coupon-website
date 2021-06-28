@@ -3,6 +3,42 @@ const month = time.toLocaleString('default', { month: 'long'});
 const year = time.getFullYear();
 new ClipboardJS('.copy');
 const allCoupons = [
+  {
+    id: "Aliexpress014",
+    discount: "5% OFF",
+    title: "Use Code and Save 5%",
+    expiry: "Expires on 31-12-2021",
+    code: "28VERANOALI",
+    modalInfo: "Use this Coupon to save 5%",
+    buttonId: "15",
+    success: "100% Success",
+    actionUrl: "https://s.click.aliexpress.com/e/_Ammq3f",
+    store: "aliexpress"
+  },
+  {
+    id: "Aliexpress015",
+    discount: "$5 OFF",
+    title: "$5 Off Sitewide Coupon",
+    expiry: "Expires on 31-12-2021",
+    code: "RQMY",
+    modalInfo: "Use this Coupon to get $5 Off Sitewide Coupon",
+    buttonId: "16",
+    success: "100% Success",
+    actionUrl: "https://s.click.aliexpress.com/e/_Ammq3f",
+    store: "aliexpress"
+  },
+  {
+    id: "Aliexpress016",
+    discount: "40% OFF",
+    title: "Save 40%",
+    expiry: "Expires on 31-12-2021",
+    code: "ALI675",
+    modalInfo: "Use this Coupon to Save 40%",
+    buttonId: "17",
+    success: "100% Success",
+    actionUrl: "https://s.click.aliexpress.com/e/_Ammq3f",
+    store: "aliexpress"
+  },
   
   {
     id: "Aliexpress001",
@@ -168,6 +204,22 @@ const allCoupons = [
         
 ]
 const allDeals = [
+  {
+    discount: "$50 Off",
+    expiry: "31-12-2021",
+    title: "Up to $50 Off Select Products",
+    success: "100% Success",
+    actionUrl: "https://s.click.aliexpress.com/e/_Ammq3f",
+    store: "aliexpress"
+  },
+  {
+    discount: "85% Off",
+    expiry: "31-12-2021",
+    title: "Up to 85% Off",
+    success: "100% Success",
+    actionUrl: "https://s.click.aliexpress.com/e/_Ammq3f",
+    store: "aliexpress"
+  },
   {
     discount: "$4 Off",
     expiry: "31-12-2021",
