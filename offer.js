@@ -75,77 +75,7 @@ tabsArr.forEach(element => {
 }
 
 const allCpns = [
-  {
-    id: "Aliexpress0014",
-    discount: "$3 OFF",
-    title: "3$ OFF 30$",
-    expiry: "Expires on 27-06-21",
-    code: "618ALI3",
-    modalInfo: "Use this Coupon to get 3$ OFF 30$",
-    buttonId: "ali14",
-    success: "100% Success",
-    actionUrl: "https://s.click.aliexpress.com/e/_Ammq3f",
-    store: "aliexpress",
-    btnId: "ali-e",
-    uses: "520 uses today"
-  },
-  {
-    id: "Aliexpress0015",
-    discount: "$6 OFF",
-    title: "6$ OFF 50$",
-    expiry: "Expires on 27-06-21",
-    code: "618ALI6",
-    modalInfo: "Use this Coupon to get 6$ OFF 50$",
-    buttonId: "ali15",
-    success: "100% Success",
-    actionUrl: "https://s.click.aliexpress.com/e/_Ammq3f",
-    store: "aliexpress",
-    btnId: "ali-d",
-    uses: "358 uses today"
-  },
-  {
-    id: "Aliexpress0016",
-    discount: "$11 OFF",
-    title: "11$ OFF 90$",
-    expiry: "Expires on 27-06-21",
-    code: "618ALI11",
-    modalInfo: "Use this Coupon to get 11$ OFF 90$",
-    buttonId: "ali16",
-    success: "100% Success",
-    actionUrl: "https://s.click.aliexpress.com/e/_Ammq3f",
-    store: "aliexpress",
-    btnId: "ali-c",
-    uses: "458 uses today"
-  },
-  {
-    id: "Aliexpress0017",
-    discount: "$13 OFF",
-    title: "13$ OFF 110$",
-    expiry: "Expires on 27-06-21",
-    code: "618ALI13",
-    modalInfo: "Use this Coupon to get 13$ OFF 110$",
-    buttonId: "ali17",
-    success: "100% Success",
-    actionUrl: "https://s.click.aliexpress.com/e/_Ammq3f",
-    store: "aliexpress",
-    btnId: "ali-b",
-    uses: "354 uses today"
-  },
-  {
-    id: "Aliexpress0018",
-    discount: "$3 OFF",
-    title: "$3 OFF $4",
-    expiry: "Expires on 27-06-21",
-    code: "6183NEW",
-    modalInfo: "Use this Coupon to get $3 OFF $4",
-    buttonId: "ali18",
-    success: "100% Success",
-    actionUrl: "https://s.click.aliexpress.com/e/_Ammq3f",
-    store: "aliexpress",
-    btnId: "ali-a",
-    uses: "256 uses today"
-  },
-
+  
   {
     id: "Aliexpress001",
     discount: "$4 OFF",
