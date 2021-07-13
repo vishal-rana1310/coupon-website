@@ -76,6 +76,48 @@ tabsArr.forEach(element => {
 
 const allCpns = [
   {
+    id: "Aliexpress017",
+    discount: "$4 OFF",
+    title: "$4 Off Any Order",
+    expiry: "Expires on 31-12-2021",
+    code: "WA22",
+    modalInfo: "Use this Coupon to get $4 Off Any Order",
+    buttonId: "1522",
+    success: "100% Success",
+    actionUrl: "https://s.click.aliexpress.com/e/_A08RtR",
+    store: "aliexpress",
+    btnId: "qq",
+    uses: "552 uses today"
+  },
+  {
+    id: "Aliexpress018",
+    discount: "$5 OFF",
+    title: "$5 Off Any Order",
+    expiry: "Expires on 31-12-2021",
+    code: "ALI567",
+    modalInfo: "Use this Coupon to get $5 Off Any Order",
+    buttonId: "1523",
+    success: "100% Success",
+    actionUrl: "https://s.click.aliexpress.com/e/_A08RtR",
+    store: "aliexpress",
+    btnId: "mm",
+    uses: "463 uses today"
+  },
+  {
+    id: "Aliexpress019",
+    discount: "$5 OFF",
+    title: "$5 Off First order",
+    expiry: "Expires on 31-12-2021",
+    code: "ALIMINUS162",
+    modalInfo: "Use this Coupon to get $5 Off First order",
+    buttonId: "1524",
+    success: "100% Success",
+    actionUrl: "https://s.click.aliexpress.com/e/_A08RtR",
+    store: "aliexpress",
+    btnId: "tt",
+    uses: "485 uses today"
+  },
+  {
     id: "Aliexpress014",
     discount: "5% OFF",
     title: "Use Code and Save 5%",
@@ -120,49 +162,6 @@ const allCpns = [
   
   
   {
-    id: "Aliexpress001",
-    discount: "$4 OFF",
-    title: "All User Offer – $4 Off On All Orders Above $5 | Limited Period Offer",
-    expiry: "Expires on 31-12-2021",
-    code: "EXP38",
-    modalInfo: "Use this Coupon to get $4 Off on All Orders Above $5 | Limited Period Offer",
-    buttonId: "0",
-    success: "100% Success",
-    actionUrl: "https://s.click.aliexpress.com/e/_Ammq3f",
-    store: "aliexpress",
-    btnId: "a",
-    uses: "732 uses today"
-  },
-  {
-    id: "Aliexpress002",
-    discount: "$4 OFF",
-    title: "$4 Off Your First Order",
-    expiry: "Expires on 31-12-2021",
-    code: "SUB4AE607",
-    modalInfo: "Use this Coupon to get $4 Off Your First Order",
-    buttonId: "1",
-    success: "100% Success",
-    actionUrl: "https://s.click.aliexpress.com/e/_Ammq3f",
-    store: "aliexpress",
-    btnId: "b",
-    uses: "568 uses today"
-
-  },
-  {
-    id: "Aliexpress003",
-    discount: "$4 OFF",
-    title: "$4 Off Any Order",
-    expiry: "Expires on 31-12-2021",
-    code: "SUB4AE609",
-    modalInfo: "Use this Coupon to get $4 Off on Any Order",
-    buttonId: "2",
-    success: "100% Success",
-    actionUrl: "https://s.click.aliexpress.com/e/_Ammq3f",
-    store: "aliexpress",
-    btnId: "c",
-    uses: "865 uses today"
-  },
-  {
     id: "Aliexpress004",
     discount: "$4 OFF",
     title: "$4 Off Sitewide",
@@ -175,20 +174,6 @@ const allCpns = [
     store: "aliexpress",
     btnId: "d",
     uses: "745 uses today"
-  },
-  {
-    id: "Aliexpress005",
-    discount: "$4 OFF",
-    title: "$4 Off $5+ Orders",
-    expiry: "Expires on 31-12-2021",
-    code: "SUB4AE888",
-    modalInfo: "Use this Coupon to get $4 Off $5+ Orders",
-    buttonId: "4",
-    success: "100% Success",
-    actionUrl: "https://s.click.aliexpress.com/e/_Ammq3f",
-    store: "aliexpress",
-    btnId: "e",
-    uses: "452 uses today"
   },
   
 
@@ -399,78 +384,7 @@ const allDls = [
     store: "aliexpress",
     uses: "463 uses today"
   },
-  {
-    discount: "$3 OFF",
-    expiry: "31-12-2021",
-    title: "$3 Off Coupon With Aliexpress Email Sign Up",
-    success: "100% Success",
-    actionUrl: "https://s.click.aliexpress.com/e/_Ammq3f",
-    store: "aliexpress",
-    uses: "576 uses today"
-  },
-  {
-    discount: "60% OFF",
-    expiry: "31-12-2021",
-    title: "Upto 60% Off on Hot Products | No Minimum Order Value Required",
-    success: "100% Success",
-    actionUrl: "https://s.click.aliexpress.com/e/_Ammq3f",
-    store: "aliexpress",
-    uses: "393 uses today"
-  },
-  {
-    discount: "60% OFF",
-    expiry: "31-12-2021",
-    title: "Consumer Electronics – Get upto 60% Off + Free Shipping",
-    success: "100% Success",
-    actionUrl: "https://s.click.aliexpress.com/e/_Ammq3f",
-    store: "aliexpress",
-    uses: "453 uses today"
-  },
-  {
-    discount: "70% OFF",
-    expiry: "31-12-2021",
-    title: "Footwear Store – Get upto 70% Off On Men & Women Footwear",
-    success: "100% Success",
-    actionUrl: "https://s.click.aliexpress.com/e/_Ammq3f",
-    store: "aliexpress",
-    uses: "693 uses today"
-  },
-  {
-    discount: "60% OFF",
-    expiry: "31-12-2021",
-    title: "Latest Mobile Phone Offers – Get Upto 60% Off On Top Mobile Brands",
-    success: "100% Success",
-    actionUrl: "https://s.click.aliexpress.com/e/_Ammq3f",
-    store: "aliexpress",
-    uses: "544 uses today"
-  },
-  {
-    discount: "40% OFF",
-    expiry: "31-12-2021",
-    title: "Laptop Offer- Get Upto 40% Off On Top Laptop Brands | Limited Stock Available",
-    success: "100% Success",
-    actionUrl: "https://s.click.aliexpress.com/e/_Ammq3f",
-    store: "aliexpress",
-    uses: "693 uses today"
-  },
-  {
-    discount: "50% OFF",
-    expiry: "31-12-2021",
-    title: "Fashion Deal On Aliexpress – Upto 50% Off On Watches & Jewelry",
-    success: "100% Success",
-    actionUrl: "https://s.click.aliexpress.com/e/_Ammq3f",
-    store: "aliexpress",
-    uses: "485 uses today"
-  },
-  {
-    discount: "70% OFF",
-    expiry: "31-12-2021",
-    title: "Upto 70% Off Deals on Home & Garden Products",
-    success: "100% Success",
-    actionUrl: "https://s.click.aliexpress.com/e/_Ammq3f",
-    store: "aliexpress",
-    uses: "569 uses today"
-  },
+
 ]
 
 
