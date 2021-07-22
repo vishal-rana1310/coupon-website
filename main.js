@@ -12,7 +12,7 @@ const allCoupons = [
     modalInfo: "Use this Coupon to get $4 Off Any Order",
     buttonId: "1522",
     success: "100% Success",
-    actionUrl: "https://s.click.aliexpress.com/e/_A08RtR",
+    actionUrl: "https://s.click.aliexpress.com/e/_Ammq3f",
     store: "aliexpress"
   },
   {
@@ -24,7 +24,7 @@ const allCoupons = [
     modalInfo: "Use this Coupon to get $5 Off Any Order",
     buttonId: "1523",
     success: "100% Success",
-    actionUrl: "https://s.click.aliexpress.com/e/_A08RtR",
+    actionUrl: "https://s.click.aliexpress.com/e/_Ammq3f",
     store: "aliexpress"
   },
   {
@@ -36,7 +36,7 @@ const allCoupons = [
     modalInfo: "Use this Coupon to get $5 Off First order",
     buttonId: "1524",
     success: "100% Success",
-    actionUrl: "https://s.click.aliexpress.com/e/_A08RtR",
+    actionUrl: "https://s.click.aliexpress.com/e/_Ammq3f",
     store: "aliexpress"
   },
   {
