@@ -84,7 +84,7 @@ const allCpns = [
     modalInfo: "Use this Coupon to get $4 Off Any Order",
     buttonId: "1522",
     success: "100% Success",
-    actionUrl: "https://s.click.aliexpress.com/e/_A08RtR",
+    actionUrl: "https://s.click.aliexpress.com/e/_Ammq3f",
     store: "aliexpress",
     btnId: "qq",
     uses: "552 uses today"
@@ -98,7 +98,7 @@ const allCpns = [
     modalInfo: "Use this Coupon to get $5 Off Any Order",
     buttonId: "1523",
     success: "100% Success",
-    actionUrl: "https://s.click.aliexpress.com/e/_A08RtR",
+    actionUrl: "https://s.click.aliexpress.com/e/_Ammq3f",
     store: "aliexpress",
     btnId: "mm",
     uses: "463 uses today"
@@ -112,7 +112,7 @@ const allCpns = [
     modalInfo: "Use this Coupon to get $5 Off First order",
     buttonId: "1524",
     success: "100% Success",
-    actionUrl: "https://s.click.aliexpress.com/e/_A08RtR",
+    actionUrl: "https://s.click.aliexpress.com/e/_Ammq3f",
     store: "aliexpress",
     btnId: "tt",
     uses: "485 uses today"
